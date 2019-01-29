@@ -87,18 +87,7 @@
         "description": "The messaging tier for service Bus namespace"
       }
     },
-        "skuCapacity": {
-     "type": "int",
-     "allowedValues": [
-       1,
-       2,
-       4
-     ],
-     "defaultValue": 1,
-     "metadata": {
-       "description": "MessagingUnits for premium namespace"
-     }
-   },
+
 	  
     "location_eventhub": {
       "type": "string",
@@ -209,7 +198,7 @@
       "sku": {
         "name": "[parameters('eventhubSku')]",
         "tier": "[parameters('eventhubSku')]",
-        "capacity": "[parameters('skuCapacity')]"
+        "capacity": 20
       },
       "tags": {
         "environmentType": "Dev",
