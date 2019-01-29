@@ -87,18 +87,7 @@
         "description": "The messaging tier for service Bus namespace"
       }
     },
-    "eventHubName": {
-      "type": "string",
-      "metadata": {
-        "description": "Name of Event Hub"
-      }
-    },
-    "consumerGroupName_eventhub": {
-      "type": "string",
-      "metadata": {
-        "description": "Name of Consumer Group"
-      }
-    },
+    
     "location_eventhub": {
       "type": "string",
       "defaultValue": "[resourceGroup().location]",
