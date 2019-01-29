@@ -6,8 +6,8 @@ Param(
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,
     [string] $StorageContainerName = $ResourceGroupName.ToLowerInvariant() + '-stageartifacts',
-    [string] $TemplateFile = 'fndcmpntdeployupdated.json',
-    [string] $TemplateParametersFile = 'fndcmpnt.parameterupdated.json',
+    [string] $TemplateFile = 'fndcmpntdeployupdated_tmp.json',
+    [string] $TemplateParametersFile = 'fndcmpnt.paramter.json',
     [string] $ArtifactStagingDirectory = '.',
     [string] $DSCSourceFolder = 'DSC',
     [switch] $ValidateOnly
