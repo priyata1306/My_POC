@@ -351,7 +351,7 @@
 				"businessCostCenter": "516-800-80173 IT-Development",
 				"businessSponsor": "Ayman Taha",
 				"environmentType": "POC",
-				"rgIdentifier": "IT-InfoMgt"
+				"rgIdentifier": "IT-InfoMgt",
 				"defaultExperience": "Azure Cosmos DB for MongoDB API"
                }
         }
